@@ -1,0 +1,16 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /Personnalisez_un_th%C3%A8me_WordPress_pour_une_startup_avec_HTML_CSS_et_PHP_Malimiar_Mohammed-Aslam/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /Personnalisez_un_th%C3%A8me_WordPress_pour_une_startup_avec_HTML_CSS_et_PHP_Malimiar_Mohammed-Aslam/index.php [L]
+</IfModule>
+
+# END WordPress
