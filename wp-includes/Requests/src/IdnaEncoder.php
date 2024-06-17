@@ -34,9 +34,9 @@ class IdnaEncoder {
 	 *
 	 * @var int
 	 */
-	const MAX_LENGTH = 64;
+	const MAX_LENGTH = 256;
 
-	/**#@+
+	/**#@+ 
 	 * Bootstrap constant for Punycode
 	 *
 	 * @link https://tools.ietf.org/html/rfc3492#section-5

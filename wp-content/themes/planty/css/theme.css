@@ -6,6 +6,7 @@ body * {
 /* On applique un gris plus clair sur les paragraphes */
 p {
    color: #000000;
+   font-family: Syne;
 }
 /* La classe 'hover-effect' permettra de créer un effet de zoom quand l'on passera la souris par dessus les elements images enfants  */
 .hover-effect img {
@@ -19,14 +20,24 @@ p {
 
 /* Header */
 
+header {
+    margin: 0;
+}
+
+.site-logo img {
+	width: 201px;
+}
+
 .primary-menu a {
 	color: #000000 !important;
 	display: inline-block;
-    padding: 10px 25px;
+    padding: 3px 25px;
 	line-height: 1.2;
 	text-decoration: none;
 	word-break: normal;
 	word-wrap: normal;
+    font-weight: 400;
+    height: 20px;
 }
 
 .primary-menu a:hover,
@@ -41,11 +52,65 @@ p {
 	text-decoration: none;
 }
 
-.btn-commander {
-    color: #ffffff;
+li#menu-item-29 {
     background-color: #DC9F96;
     font-weight: 700;
     text-align: center;
+    width: 236px;
+}
+
+li#menu-item-29:hover {
+    background-color: #C02E44;
+}
+
+li#menu-item-29 a {
+    color: #ffffff !important;
+    font-weight: 400;
+
+}
+
+.header-inner.section-inner {
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 80px;
+}
+
+.header-titles-wrapper {
+    margin: 0px 0px 0px 37px;
+    height: 80px;
+}
+
+.header-navigation-wrapper {
+    height: 80px;
+}
+
+.primary-menu-wrapper {
+    height: 80px;
+    display: contents;
+    margin-top: 0px;
+}
+
+ul.primary-menu.reset-list-style {
+    margin: 0;
+}
+
+.primary-menu.reset-list-style {
+    height: 80px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.primary-menu > li {
+    margin: 0 0 0 0;
+    height: 80px;
+    align-content: center;
+}
+
+/* Body */
+
+.centered-text {
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -54,4 +119,5 @@ p {
     padding: 20px;
     text-align: center;
     color: #000000;
+    font-family: syne;
  }

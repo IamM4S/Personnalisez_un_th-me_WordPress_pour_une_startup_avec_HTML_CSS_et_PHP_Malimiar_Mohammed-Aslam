@@ -83,7 +83,7 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+define('WP_MAX_EXECUTION_TIME', 300); // Replace 300 with your desired time in seconds
 
 /* That's all, stop editing! Happy publishing. */
 
