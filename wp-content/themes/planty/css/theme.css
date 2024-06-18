@@ -135,12 +135,11 @@ ul.primary-menu.reset-list-style {
     text-align: center;
     color: #000000;
     font-family: syne;
- }
+}
 
- #bg-color {
-    background-color: #ECE2DA;
- }
-
-.btn-submit {
-	align-self: center
+#site-footer a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-family: syne;
 }
