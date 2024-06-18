@@ -14,3 +14,13 @@ function add_extra_item_to_nav_menu( $items, $args ) {
 	}
 	return $items;
 }
+
+function my_wp_nav_menu_args( $args = '' ) {
+    if( is_user_logged_in() ) { 
+        $args['menu'] = 'logged-in';
+    } else { 
+        $args['menu'] = 'logged-out';
+    } 
+        return $args;
+    }
+    add_filter( 'wp_nav_menu_args', 'my_wp_nav_menu_args' );

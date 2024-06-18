@@ -66,7 +66,22 @@ li#menu-item-29:hover {
 li#menu-item-29 a {
     color: #ffffff !important;
     font-weight: 400;
+}
 
+li#menu-item-449 {
+    background-color: #DC9F96;
+    font-weight: 700;
+    text-align: center;
+    width: 236px;
+}
+
+li#menu-item-449:hover {
+    background-color: #C02E44;
+}
+
+li#menu-item-449 a {
+    color: #ffffff !important;
+    font-weight: 400;
 }
 
 .header-inner.section-inner {
@@ -125,3 +140,7 @@ ul.primary-menu.reset-list-style {
  #bg-color {
     background-color: #ECE2DA;
  }
+
+.btn-submit {
+	align-self: center
+}
