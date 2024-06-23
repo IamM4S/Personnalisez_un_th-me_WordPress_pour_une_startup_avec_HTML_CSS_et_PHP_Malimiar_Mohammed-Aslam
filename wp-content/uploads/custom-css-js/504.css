@@ -1,0 +1,31 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+h4 {
+	color: #ffffff;
+	font-family: Syne;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+} 
+
+label {
+	color: #ffffff;
+	font-family: Syne;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 10px
+}
+
+
+input[type="text"], input[type="email"] {
+	border-radius: 3px;
+}
+
+input[type="submit"] {
+	background-color: #E0B9B4;
+	border-radius: 3px;
+	width: 100%;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
