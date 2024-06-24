@@ -1,0 +1,62 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.div-container {
+	display: flex;
+	flex-direction: row;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.div1 {
+	flex: 50%;
+	padding-right: 40px;
+	border-right: 1px solid #ffffff;
+	margin-bottom: 0;
+}
+
+.div2 {
+	flex: 50%;
+	padding-left: 40px;
+	margin-bottom: 0;
+}
+
+.div-btn {
+	padding-left: 35%;
+	padding-right: 35%;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.elementor-element elementor-element-d53a393 e-flex e-con-boxed e-con e-child {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+h4 {
+	color: #ffffff;
+	font-family: Syne;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	margin-top: 0;
+} 
+
+label {
+	color: #ffffff;
+	font-family: Syne;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+input[type="text"], input[type="email"] {
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+input[type="submit"] {
+	background-color: #E0B9B4;
+	border-radius: 5px;
+	width: 100%;
+}</style>
+<!-- end Simple Custom CSS and JS -->
